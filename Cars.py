@@ -3,6 +3,6 @@ n=int(input())
 if n<=4:
     cars=1
 else:
-    a=n/4
-    cars=math.ceil(a)
+    cars=n/4
+cars=math.ceil(cars)
 print(cars)
