@@ -6,7 +6,8 @@ while n>0:
     rev=rev*10+d
     n=n//10
 if n1==rev:
-    print("Palindrome")
+    print("True")
 else:
-    print("Not Palindrome")
+    print("False")
+
     
